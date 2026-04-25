@@ -1,0 +1,114 @@
+/* Layout */
+.app {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+  background: #f5f1e8; /* soft beige/off-white */
+  min-height: 100vh;
+  color: #1e293b;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0f172a;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navLinks a {
+  margin-left: 20px;
+  color: #cbd5f5;
+  text-decoration: none;
+}
+
+.navLinks a:hover {
+  color: #93c5fd;
+}
+
+/* Home */
+.home {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.accent {
+  color: #3b82f6;
+}
+
+/* Sections */
+.container {
+  margin-top: 40px;
+}
+
+.sectionTitle {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Projects */
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.projectCard {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.projectCard:hover {
+  transform: scale(1.02);
+}
+
+.projectImage {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.projectContent {
+  padding: 15px;
+}
+
+.tags span {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1d4ed8;
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin: 5px 5px 0 0;
+  font-size: 12px;
+}
+
+/* Skills */
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+.contact {
+  text-align: center;
+}
