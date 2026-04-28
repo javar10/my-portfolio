@@ -1,34 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import styles from "./styles.module.css";
-
-// --- Sample Data ---
-const projects = [
-  {
-    title: "Baby Name Generator App",
-    description:
-      "Mobile app built with React Native that allows users to generate, filter, favorite, and share baby names.",
-    tech: ["React Native", "JavaScript"],
-    link: "https://testflight.apple.com/join/xwRSkHHd",
-    image: "https://via.placeholder.com/400x200",
-  },
-  {
-    title: "Speaking Analysis App",
-    description:
-      "App integrating speech-to-text APIs to analyze group speaking patterns and provide insights.",
-    tech: ["JavaScript", "APIs"],
-    link: "#",
-    image: "https://via.placeholder.com/400x200",
-  },
-{
-  title: "Honey-Do App",
-  description:
-    "Full-stack task management app for organizing shared household responsibilities, featuring task creation, filtering, and persistent data using a backend API.",
-  tech: ["JavaScript", "React", "Node.js", "Express", "MongoDB"],
-  link: "#",
-  image: "https://via.placeholder.com/400x200",
-},
-];
+import projects from "./data/projects";
 
 // --- Navbar ---
 function Navbar() {
