@@ -5,7 +5,7 @@ const projects = [
         title: "Baby Mix",
         description:
             "Mobile app built with React Native that allows users to generate, filter, favorite, and share baby names.",
-        tech: ["React Native", "JavaScript"],
+        tech: ["React Native", "Expo", "React Navigation", "AsyncStorage", "App Store Connect"],
         link: "https://apps.apple.com/us/app/baby-mix/id6742421782",
         repo: "https://github.com/javar10/Random-Baby-Name-App",
         image: BabyMixPreview,
@@ -14,7 +14,7 @@ const projects = [
         title: "My Bookshelf",
         description:
             "Full-stack application built with React and Django that allows users to browse books via the Open Library API and curate a personalized bookshelf. Included cloud deployment using AWS (S3 and EC2).",
-        tech: ["React", "Django", "JavaScript", "Python", "AWS", "APIs"],
+        tech: ["React", "Django", "Python", "AWS", "APIs"],
         link: "#",
         image: "https://via.placeholder.com/400x200",
     },
@@ -30,7 +30,7 @@ const projects = [
         title: "Honey-Do List",
         description:
             "Full-stack task management app for organizing shared household responsibilities, featuring task creation, filtering, and persistent data using a backend API.",
-        tech: ["JavaScript", "React", "Node.js", "Express", "MongoDB"],
+        tech: ["React", "Node.js", "Express", "MongoDB"],
         link: "#",
         image: "https://via.placeholder.com/400x200",
     },
